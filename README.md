@@ -18,7 +18,8 @@ B
 
 ## Implemetation  
 1. Selected "bert-base-uncased" lanaguge model for this task.
-2. Filtered English train, test, and validation datasets from the entite datasets
-3. Fine-tunned two bert-base-uncased two times __
-   3.1. Model A: used all entity types __
-   3.2. Model B: used five entity types (PERSON(PER), ORGANIZATION(ORG), LOCATION(LOC), DISEASES(DIS), ANIMAL(ANIM))
+2. Filtered English train, test, and validation files from the entite datasets
+3. Fine-tunned two bert-base-uncased two times on train and validation datasets __
+   3.1. Model A: used all entity types as classes __
+   3.2. Model B: used five entity types (PERSON(PER), ORGANIZATION(ORG), LOCATION(LOC), DISEASES(DIS), ANIMAL(ANIM)) as classes
+4. compare performance of both models on test dataset
