@@ -72,4 +72,5 @@ Testing Loss | Accuracy | Precision | Recall | F1-score
 0.090996	| 0.987007	| 0.933750	| 0.945388	| 0.939533
 
 ## Conclusion   
+This analysis shows that Model B perform better than Model A. It is obious that Model B has less classes than Model A.
 
