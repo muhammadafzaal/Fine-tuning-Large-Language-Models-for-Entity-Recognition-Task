@@ -1,0 +1,8 @@
+datasets
+numpy
+transformers
+evaluate
+pandas
+tokenizers
+seqeval
+accelerate==0.20.3
