@@ -5,6 +5,8 @@
 2. pip install -r requirements.txt
 3. python code.py
 
+**IMPORTANT:** "filtered_categories = True" means only five entity types (PERSON(PER), ORGANIZATION(ORG), LOCATION(LOC), DISEASES(DIS), ANIMAL(ANIM)) will be used as classes
+
 ## Task
 
 1. Familiarize yourself with the MultiNERD Named Entity Recognition dataset (https://huggingface.co/datasets/Babelscape/multinerd)
