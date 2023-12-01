@@ -1,6 +1,6 @@
 # Fine-tuning-Large-Language-Models-for-Entity-Recognition-Task
 
-## Tasks 
+## Task
 
 1. Familiarize yourself with the MultiNERD Named Entity Recognition dataset
 2. Find a suitable LM model on HuggingFace Model Hub (https://huggingface.co/models). This can
@@ -19,7 +19,9 @@ B
 ## Implemetation  
 1. Selected "bert-base-uncased" lanaguge model for this task.
 2. Filtered English train, test, and validation files from the entite datasets
-3. Fine-tunned two bert-base-uncased two times on train and validation datasets __
+3. Fine-tunned bert-base-uncased twice on train and validation datasets __
    3.1. Model A: used all entity types as classes __
    3.2. Model B: used five entity types (PERSON(PER), ORGANIZATION(ORG), LOCATION(LOC), DISEASES(DIS), ANIMAL(ANIM)) as classes
-4. compare performance of both models on test dataset
+4. Compared performance of both models on test dataset
+
+## Results 
