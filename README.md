@@ -2,7 +2,7 @@
 
 ## Task
 
-1. Familiarize yourself with the MultiNERD Named Entity Recognition dataset
+1. Familiarize yourself with the MultiNERD Named Entity Recognition dataset (https://huggingface.co/datasets/Babelscape/multinerd)
 2. Find a suitable LM model on HuggingFace Model Hub (https://huggingface.co/models). This can
 be a Large Language Model (LLM) or any type of Transformer-based Language Model
 3. Filter out the non-English examples of the dataset
