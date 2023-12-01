@@ -42,3 +42,4 @@ Epoch | Training Loss | Validation Loss | Accuracy | Precision | Recall | F1-sco
 --- | --- | --- | --- |--- |--- |--- 
 
 
+
