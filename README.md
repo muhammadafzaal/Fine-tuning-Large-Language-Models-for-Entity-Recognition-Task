@@ -48,3 +48,4 @@ Testing Loss | Accuracy | Precision | Recall | F1-score
 --- | --- |--- |--- |--- 
 0.125017	| 0.981275	| 0.911197	| 0.927331	| 0.919193
 
+
