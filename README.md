@@ -25,7 +25,9 @@ B
 4. Compared performance of both models on test dataset using accuracy, precision, recall and F1 metrics
 
 ## Results 
-### Model A results 
+### Model A 
+
+#### Training 
 
 Epoch | Training Loss | Validation Loss | Accuracy | Precision | Recall | F1-score
 --- | --- | --- | --- |--- |--- |--- 
@@ -41,5 +43,8 @@ Epoch | Training Loss | Validation Loss | Accuracy | Precision | Recall | F1-sco
 10	| 0.001200	| 0.159002	| 0.975837	| 0.878465	| 0.898261	| 0.888253
 --- | --- | --- | --- |--- |--- |--- 
 
-
+#### Testing 
+Testing Loss | Accuracy | Precision | Recall | F1-score
+--- | --- |--- |--- |--- 
+0.125017	| 0.981275	| 0.911197	| 0.927331	| 0.919193
 
