@@ -79,5 +79,16 @@ Testing Loss | Accuracy | Precision | Recall | F1-score
 0.090996	| 0.987007	| 0.933750	| 0.945388	| 0.939533
 
 ## Conclusion   
-This analysis shows that Model B perform better than Model A. It is obious that Model B has less classes than Model A.
+In the context of model A, it is noteworthy to observe a substantial decrease in training loss from 0.076200 during the initial epoch to 0.001200 by the tenth epoch. This reduction in training loss suggests that the model has exhibited a commendable capacity for learning. The observed trend in the validation Loss indicates a notable increase over the course of multiple epochs, which may suggest the presence of potential overfitting.During all phases of the task, it was observed that remaining metrics exhibited improvement, particularly in the case of recall, which displayed a noteworthy increase from an initial value of 83.25% to a final value of 89.83%. In the context of Model B, it is observed that the training loss exhibited a notable decline over the course of the training process. Specifically, the training loss decreased from an initial value of 0.050000 in epoch 1 to a significantly lower value of 0.000500 by epoch 10. However, it is worth noting that the validation loss of Model B was observed to be lower than that of Model A. This suggests that Model B may have performed better in terms of generalisation, as a lower validation loss is typically associated with a model that is less prone to overfitting. The observed trend indicates a higher level of consistency in the improvement of remaining metrics, relative to Model A.
+
+In order to mitigate the risk of overfitting during the fine-tuning process of BERT for entity recognition, it is advisable to incorporate regularisation techniques such as dropout, employ early stopping, and conduct cross-validation. These measures can help prevent the model from excessively fitting the training data and enhance its generalisation capabilities. In addition, it is helpful to diligently monitor the metrics related to overfitting and contemplate the utilisation of ensemble methods as a means to enhance the generalisation capabilities of the model.
+
+
+
+
+
+
+
+
+
 
