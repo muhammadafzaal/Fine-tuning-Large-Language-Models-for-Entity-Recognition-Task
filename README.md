@@ -1,5 +1,10 @@
 # Fine-tuning-Large-Language-Models-for-Entity-Recognition-Task
 
+## Instructions to Run
+1. git clone https://github.com/muhammadafzaal/Fine-tuning-Large-Language-Models-for-Entity-Recognition-Task.git
+2. pip install -r requirements.txt
+3. python code.py
+
 ## Task
 
 1. Familiarize yourself with the MultiNERD Named Entity Recognition dataset (https://huggingface.co/datasets/Babelscape/multinerd)
