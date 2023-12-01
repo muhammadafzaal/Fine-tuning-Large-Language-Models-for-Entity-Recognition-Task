@@ -6,3 +6,4 @@ pandas
 tokenizers
 seqeval
 accelerate==0.20.3
+torch
