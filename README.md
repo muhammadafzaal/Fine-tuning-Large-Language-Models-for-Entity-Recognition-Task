@@ -22,6 +22,6 @@ B
 3. Fine-tunned bert-base-uncased twice on train and validation datasets \
    3.1. Model A: used all entity types as classes \
    3.2. Model B: used five entity types (PERSON(PER), ORGANIZATION(ORG), LOCATION(LOC), DISEASES(DIS), ANIMAL(ANIM)) as classes
-4. Compared performance of both models on test dataset
+4. Compared performance of both models on test dataset using accuracy, precision, recall and F1 metrics
 
 ## Results 
